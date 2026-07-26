@@ -12,10 +12,6 @@ Adds component icons to a separate column in the Unity Hierarchy.
 - Search match highlighting.
 - Transform and RectTransform ignored by default.
 
-## Compatibility
-
-Uses reflection to access the internal Hierarchy API in early Unity 6.3 versions.
-
 ## Installation
 
 Copy `HierarchyComponentIcons.cs` to:
@@ -29,3 +25,6 @@ Open settings via:
 ```text
 Edit → Preferences → Hierarchy Component Icons
 ```
+## Compatibility
+
+Uses reflection to access the internal Hierarchy API in early Unity 6.3 versions.
