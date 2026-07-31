@@ -636,7 +636,7 @@ public static class HierarchyComponentIcons
         }
 
         IgnoredTypeKeys = new HashSet<string>();
-        SaveIgnoredTypes();
+        EditorPrefs.SetString(GetSettingsKey(IgnoredTypesKey), string.Empty);
         EditorPrefs.SetInt(GetSettingsKey(AlignmentKey), RightAlignment);
         EditorPrefs.SetBool(GetSettingsKey(SettingsInitializedKey), true);
     }
